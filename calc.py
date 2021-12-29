@@ -1,4 +1,12 @@
 from math import *
+from tkinter import *
+
+root = Tk()
+root.title("Calculatorinator v2.0 Plus Pro")
+
+e = Entry(root, width = 35, borderwidth = 5)
+e.grid(row=0, column = 0, columnspan = 3, padx = 10, pady = 10)
+root.mainloop()
 
 def calc():
     num1 = input("Enter a number: ")
