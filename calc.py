@@ -64,39 +64,39 @@ button_9 = Button(root, text = "9", padx = 40, pady = 20, command = lambda: butt
 button_0 = Button(root, text = "0", padx = 87.5, pady = 20, command = lambda: button_click(0), background = "#282a36", foreground = "#f8f8f2")
 button_dot = Button(root, text = ".", padx = 41, pady = 20, command = button_dot, background = "#282a36", foreground = "#f8f8f2")
 
-button_plus  = Button(root, text = "+", padx = 40, pady = 20, command = lambda: button_op("addition"), background = "#44475a", foreground = "#f8f8f2")
-button_minus  = Button(root, text = "-", padx = 41, pady = 20, command = lambda: button_op("subtraction"), background = "#44475a", foreground = "#f8f8f2")
+button_plus  = Button(root, text = "+", padx = 40, pady = 35, command = lambda: button_op("addition"), background = "#44475a", foreground = "#f8f8f2")
+button_minus  = Button(root, text = "-", padx = 41, pady = 36, command = lambda: button_op("subtraction"), background = "#44475a", foreground = "#f8f8f2")
 button_multip  = Button(root, text = "*", padx = 40, pady = 20, command = lambda: button_op("multiplication"), background = "#44475a", foreground = "#f8f8f2")
 button_divis  = Button(root, text = "/", padx = 40, pady = 20, command = lambda: button_op("division"), background = "#44475a", foreground = "#f8f8f2")
 button_exp = Button(root, text = "^", padx = 39, pady = 20, command = lambda: button_op("exponent"), background = "#44475a", foreground = "#f8f8f2")
 button_clear = Button(root, text = "Clear", padx = 30, pady = 20, command = button_clear, background = "#44475a", foreground = "#f8f8f2")
-button_equal = Button(root, text = "=", padx = 40, pady = 52, command = button_equal, background = "#44475a", foreground = "#f8f8f2")
+button_equal = Button(root, text = "=", padx = 40, pady = 20, command = button_equal, background = "#44475a", foreground = "#f8f8f2")
 
 # put buttons on screen
-button_1.grid(row = 4, column = 0)
-button_2.grid(row = 4, column = 1)
-button_3.grid(row = 4, column = 2)
+button_1.grid(row = 8, column = 0, rowspan = 2)
+button_2.grid(row = 8, column = 1, rowspan = 2)
+button_3.grid(row = 8, column = 2, rowspan = 2)
 
-button_4.grid(row = 3, column = 0)
-button_5.grid(row = 3, column = 1)
-button_6.grid(row = 3, column = 2)
+button_4.grid(row = 6, column = 0, rowspan = 2)
+button_5.grid(row = 6, column = 1, rowspan = 2)
+button_6.grid(row = 6, column = 2, rowspan = 2)
 
-button_7.grid(row = 2, column = 0)
-button_8.grid(row = 2, column = 1)
-button_9.grid(row = 2, column = 2)
+button_7.grid(row = 4, column = 0, rowspan = 2)
+button_8.grid(row = 4, column = 1, rowspan = 2)
+button_9.grid(row = 4, column = 2, rowspan = 2)
 
-button_0.grid(row = 5, column = 0, columnspan = 2)
-button_dot.grid(row = 5, column = 2)
+button_0.grid(row = 10, column = 0, columnspan = 2, rowspan = 2)
+button_dot.grid(row = 10, column = 2, rowspan = 2)
 
-button_plus.grid(row = 3, column = 3)
-button_minus.grid(row = 2, column = 3)
-button_multip.grid(row = 1, column = 2)
-button_divis.grid(row = 1, column = 1)
+button_plus.grid(row = 7, column = 3, rowspan = 3)
+button_minus.grid(row = 4, column = 3, rowspan = 3)
+button_multip.grid(row = 2, column = 2, rowspan = 2)
+button_divis.grid(row = 2, column = 1, rowspan = 2)
 
-button_exp.grid(row = 1, column = 0)
+button_exp.grid(row = 2, column = 0, rowspan = 2)
 
-button_clear.grid(row = 1, column = 3)
-button_equal.grid(row = 4, column = 3, rowspan = 2)
+button_clear.grid(row = 2, column = 3, rowspan = 2)
+button_equal.grid(row = 10, column = 3, rowspan = 3)
 
 
 
