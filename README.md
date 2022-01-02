@@ -4,4 +4,5 @@ This is a simple calculator app that allows the user to compute simple arithmeti
 
 The main goal of this mini-project is to familiarize with Python and GUI with Tkinter. 
 
-I followed a tkinter tutorial from freeCodeCamp.org and implemented additional features such as exponentiation, color theme, decimal points, tests and exceptions to create a more robust calculator. 
+I followed a [tkinter tutorial from freeCodeCamp.org](https://www.youtube.com/watch?v=YXPyB4XeYLA&t=4729s) and implemented additional features such as exponentiation, color theme, decimal points and exceptions to create a more robust calculator. 
+
