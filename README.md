@@ -1,6 +1,6 @@
 # Simple Calculator App
 
-This is a simple calculator app that allows the user to compute simple arithmetics involving addition, subtraction, multiplication, divison and exponentiation of numbers. 
+This is a simple calculator app that allows the user to compute simple arithmetics involving addition, subtraction, multiplication, division and exponentiation of numbers. 
 
 The main goal of this mini-project is to familiarize with Python and GUI with Tkinter. 
 
